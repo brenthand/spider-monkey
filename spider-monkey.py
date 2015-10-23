@@ -50,7 +50,7 @@ for url in index_list:
 index_html += "</ol></body></html>"
 
 #Need to add argument for filename
-with open(index_list.html, "w") as f:
+with open("index_list.html", "w") as f:
     f.write(index.html)
 
 

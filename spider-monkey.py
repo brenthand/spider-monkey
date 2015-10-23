@@ -41,6 +41,16 @@ while urls != []:
 
     time.sleep(1)
 
-print(index_list)
+#print(index_list)
+
+index_html = "<html><body><ol>"
+for url in index_list:
+     index_html += "<li><a href='" + url + "' target=_'blank'>" + url + "<a/></li>"
+
+index_html += "</ol></body></html>"
+
+#Need to add argument for filename
+with open(index_list.html, "w") as f:
+    f.write(index.html)
 
 
